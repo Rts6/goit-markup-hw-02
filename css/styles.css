@@ -1,5 +1,4 @@
 /* Base */
-
 body {
     color: #434455;
     background-color: #FFF;
@@ -27,7 +26,6 @@ button {
 }
 
 /* Header */
-
 .logo {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
@@ -58,6 +56,11 @@ button {
 }
 
 address {
+    font-style: normal;
+}
+
+/* New Class for address */
+.contact-info {
     font-style: normal;
 }
 
@@ -119,6 +122,11 @@ address {
     text-transform: capitalize;
 }
 
+.advantage-paragraph {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
 /* Our Team */
 .section-title {
     color: #2E2F42;
@@ -147,6 +155,11 @@ address {
     background-color: #FFF;
 }
 
+.team-role {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 /* Our Portfolio */
 .portfolio-section {
     padding: 120px 0;
@@ -163,6 +176,11 @@ address {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+
+.portfolio-category {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* Footer */
