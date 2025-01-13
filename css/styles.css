@@ -1,0 +1,166 @@
+/* Base */
+
+body {
+    color: #434455;
+    background-color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+/* Header */
+
+.logo {
+    color: #2E2F42;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    text-transform: uppercase;
+}
+
+.logo-accent {
+    color: #4D5AE5;
+}
+
+.header-nav {
+    display: flex;
+    gap: 40px;
+}
+
+.header-link {
+    color: #2E2F42;
+    font-weight: 500;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: #404BBF;
+}
+
+.contact-link {
+    color: #434455;
+    font-style: normal;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #404BBF;
+}
+
+/* Hero section */
+.hero-section {
+    padding: 188px 0;
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    margin: auto;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 4px;
+    
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+
+/* Our Advantages */
+
+.advantage-section {
+    padding: 120px 0;
+}
+
+.advantage-list {
+display: flex;
+gap: 24px;
+}
+
+.advantage-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* Our Team */
+.section-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.our-team-section {
+    background-color: #F4F4FD;
+    padding: 120px 0;
+}
+
+.our-team-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.our-team-list {
+    display: flex;
+    gap: 24px;
+    background-color: #FFF;
+}
+
+/* Our Portfolio */
+
+.portfolio-section {
+    padding: 120px 0;
+}
+
+.portfolio-list {
+    display: flex;
+    gap: 24px;
+}
+
+.portfolio-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* footer */
+.footer {
+    padding: 100px 0;
+    background-color:  #2E2F42;
+}
+
+.footer-accent {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    color: #F4F4FD;
+}
