@@ -7,7 +7,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    
+    letter-spacing: 0.02em;
 }
 
 ul {
@@ -21,21 +21,25 @@ a {
 button {
     font-family: inherit;
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 /* Header */
 
 .logo {
-    color: #2E2F42;
+    color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logo-accent {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .header-nav {
@@ -46,6 +50,7 @@ button {
 .header-link {
     color: #2E2F42;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .header-link:hover,
@@ -53,9 +58,14 @@ button {
     color: #404BBF;
 }
 
+address {
+    font-style: normal;
+}
+
 .contact-link {
     color: #434455;
     font-style: normal;
+    letter-spacing: 0.02em;
 }
 
 .contact-link:hover,
@@ -72,6 +82,9 @@ button {
 .hero-title {
     color: #FFFFFF;
     text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .button {
@@ -82,7 +95,6 @@ button {
     border: none;
     padding: 16px 32px;
     border-radius: 4px;
-    
 }
 
 .button:hover,
@@ -91,22 +103,23 @@ button {
 }
 
 /* Our Advantages */
-
 .advantage-section {
     padding: 120px 0;
 }
 
 .advantage-list {
-display: flex;
-gap: 24px;
+    display: flex;
+    gap: 24px;
 }
 
 .advantage-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
-
 
 /* Our Team */
 .section-title {
@@ -126,6 +139,9 @@ gap: 24px;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .our-team-list {
@@ -135,7 +151,6 @@ gap: 24px;
 }
 
 /* Our Portfolio */
-
 .portfolio-section {
     padding: 120px 0;
 }
@@ -149,12 +164,15 @@ gap: 24px;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
-/* footer */
+/* Footer */
 .footer {
     padding: 100px 0;
-    background-color:  #2E2F42;
+    background-color: #2E2F42;
 }
 
 .footer-accent {
@@ -163,4 +181,5 @@ gap: 24px;
 
 .footer-text {
     color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
