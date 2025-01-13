@@ -43,7 +43,6 @@ button {
 }
 
 .header-nav {
-    display: flex;
     gap: 40px;
 }
 
@@ -108,7 +107,6 @@ address {
 }
 
 .advantage-list {
-    display: flex;
     gap: 24px;
 }
 
@@ -145,7 +143,6 @@ address {
 }
 
 .our-team-list {
-    display: flex;
     gap: 24px;
     background-color: #FFF;
 }
@@ -156,7 +153,6 @@ address {
 }
 
 .portfolio-list {
-    display: flex;
     gap: 24px;
 }
 
@@ -182,4 +178,8 @@ address {
 .footer-text {
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+
+span {
+    color: #f4f4fd;
 }
