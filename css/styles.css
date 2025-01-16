@@ -46,7 +46,7 @@ button {
 }
 
 .header-nav {
-  gap: 40px;
+  
 }
 
 .header-link {
@@ -95,7 +95,7 @@ address {
 }
 
 .button {
-  display: block;
+  
   margin: auto;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -114,7 +114,7 @@ address {
 }
 
 .advantage-list {
-  gap: 24px;
+  
 }
 
 .advantage-title {
@@ -158,7 +158,7 @@ address {
   background-color: #ffffff;}
 
 .our-team-list {
-  gap: 24px;
+  
   background-color: #fff;
 }
 
@@ -184,7 +184,7 @@ address {
   text-transform: capitalize;
 }
 .portfolio-list {
-  gap: 24px;
+ 
 }
 
 .portfolio-title {
