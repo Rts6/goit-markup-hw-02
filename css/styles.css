@@ -82,7 +82,7 @@ address {
 
 /* Hero section */
 .hero-section {
-  padding: 188px 0;
+ 
   background-color: #2e2f42;
 }
 
@@ -110,7 +110,7 @@ address {
 
 /* Our Advantages */
 .advantage-section {
-  padding: 120px 0;
+  
 }
 
 .advantage-list {
@@ -142,7 +142,7 @@ address {
 
 .our-team-section {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  
 }
 
 .our-team-title {
@@ -171,7 +171,7 @@ address {
 
 /* Our Portfolio */
 .portfolio-section {
-  padding: 120px 0;
+ 
 }
 
 .section-title {
@@ -203,7 +203,7 @@ address {
 
 /* Footer */
 .footer {
-  padding: 100px 0;
+ 
   background-color: #2e2f42;
 }
 
