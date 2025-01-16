@@ -121,14 +121,14 @@ address {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 .advantage-paragraph {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 /* Our Team */
@@ -153,6 +153,9 @@ address {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+ .team-item {
+  text-align: center;
+  background-color: #ffffff;}
 
 .our-team-list {
   gap: 24px;
@@ -174,7 +177,7 @@ address {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -188,7 +191,7 @@ address {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
