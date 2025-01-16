@@ -1,4 +1,4 @@
-/* Основні стилі сторінки */
+/* Основні стилі */
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -12,9 +12,9 @@ body {
     font-size: 18px;
     font-weight: 700;
     color: #2E2F42;
+    text-transform: uppercase;
 }
 
-/* Акцентний колір логотипа */
 .logo-accent {
     color: #4D5AE5;
 }
@@ -31,7 +31,12 @@ body {
     letter-spacing: 0.02em;
 }
 
-/* Стилі для контактної інформації */
+.header-link:hover,
+.header-link:focus {
+    color: #404BBF;
+}
+
+/* Стилі для контактів */
 .contact-info {
     font-style: normal;
 }
@@ -39,14 +44,15 @@ body {
 .contact-link {
     text-decoration: none;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-    color: #4D5AE5;
+    color: #404BBF;
 }
 
-/* Стилі для секції героя (Hero section) */
+/* Стилі для секції hero */
 .hero-section {
     text-align: center;
     background-color: #2E2F42;
@@ -54,15 +60,13 @@ body {
     padding: 188px 0;
 }
 
-/* Заголовок головної секції */
 .hero-title {
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.11;
+    line-height: 1.07;
     letter-spacing: 0.02em;
 }
 
-/* Стилі для кнопки */
 .button {
     background-color: #4D5AE5;
     color: #FFFFFF;
@@ -88,9 +92,10 @@ body {
 
 .advantage-title {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .advantage-paragraph {
@@ -105,7 +110,9 @@ body {
 .our-team-title {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .team-role {
@@ -121,8 +128,9 @@ body {
 .portfolio-title {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .portfolio-category {
@@ -137,14 +145,17 @@ body {
     padding: 100px 0;
 }
 
-/* Текст у футері */
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
     color: #F4F4FD;
 }
 
-/* Акцентний колір у футері */
 .footer-accent {
+    color: #F4F4FD;
+}
+
+/* Стилі для span */
+span {
     color: #F4F4FD;
 }
